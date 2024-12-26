@@ -23,7 +23,6 @@ class MyApp extends StatelessWidget {
 
 class GainCalculator extends StatefulWidget {
   const GainCalculator({super.key});
-
   @override
   _GainCalculatorState createState() => _GainCalculatorState();
 }
