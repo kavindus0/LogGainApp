@@ -37,7 +37,7 @@ class _GainCalculatorState extends State<GainCalculator> {
     if (V1 != null) {
       setState(() {
         _gain = 20 * log(V1 / 0.200) / ln10;
-        _iteration++;
+        _controller.clear();
       });
     }
   }
