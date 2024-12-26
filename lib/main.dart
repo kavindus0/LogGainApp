@@ -70,11 +70,6 @@ class _GainCalculatorState extends State<GainCalculator> {
             if (_gain != null)
               Text(
                 'GAIN(A) = ${_gain!.toStringAsFixed(2)} dB',
-
-                // TextStyles: TextStyle(
-                //   fontSize: 24,
-                //   fontWeight: FontWeight.bold,
-                //),
               ),
           ],
         ),
