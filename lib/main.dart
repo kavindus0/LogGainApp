@@ -69,8 +69,12 @@ class _GainCalculatorState extends State<GainCalculator> {
             const SizedBox(height: 20),
             if (_gain != null)
               Text(
-                'GAIN(A) = ${_gain!.toStringAsFixed(2)} dB (iteration $_iteration)',
-                // style: Theme.of(context).textTheme.headline6,
+                'GAIN(A) = ${_gain!.toStringAsFixed(2)} dB',
+
+                // TextStyles: TextStyle(
+                //   fontSize: 24,
+                //   fontWeight: FontWeight.bold,
+                //),
               ),
           ],
         ),
