@@ -70,7 +70,7 @@ class _GainCalculatorState extends State<GainCalculator> {
             if (_gain != null)
               Text(
                 'GAIN(A) = ${_gain!.toStringAsFixed(2)} dB (iteration $_iteration)',
-                style: Theme.of(context).textTheme.headline6,
+                // style: Theme.of(context).textTheme.headline6,
               ),
           ],
         ),
