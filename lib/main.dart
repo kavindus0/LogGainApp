@@ -33,10 +33,12 @@ class _GainCalculatorState extends State<GainCalculator> {
   int _iteration = 1;
 
   void _calculateGain() {
+
     final double? V1 = double.tryParse(_controller.text);
-    if (V1 != null) {
+    final double? V2 = double.tryParse(_controller.text);
+    if (V1 != null $$ V2 !=null) {
       setState(() {
-        _gain = 20 * log(V1 / 0.200) / ln10;
+        _gain = 20 * log(V1 / V2) / ln10;
         _controller.clear();
       });
     }
